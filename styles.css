@@ -4,10 +4,22 @@
 
 body {
   background-color: hsl(25, 85.5%, 68.6%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .modal {
-
+  height: 80vh;
+  width: 900px;
+  max-width: 80%;
+  overflow: auto;
+  background-color: #12D4E6;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -18,5 +30,5 @@ body {
 
 }
 .close-button {
-  
+
 }
