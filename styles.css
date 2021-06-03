@@ -1,7 +1,22 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: hsl(25, 85.5%, 68.6%);
+}
 
+.modal {
+
+}
+
+.header {
+
+}
+
+.title {
+
+}
+.close-button {
+  
 }
