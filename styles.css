@@ -23,12 +23,25 @@ body {
 }
 
 .header {
-
+  padding: 0 1rem;
+  border-bottom: 2px solid #008C99;
+  padding-bottom: .5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
-
+  font-size: 1.5rem;
+  padding-top: 1rem;
 }
 .close-button {
-
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  align-self: flex-start;
+  padding-top: .5rem;
 }
