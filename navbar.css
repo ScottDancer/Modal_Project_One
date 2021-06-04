@@ -4,7 +4,7 @@
 
 .nav{
   background-color: hsl(25, 85.5%, 48.6%);
-  color: white;
+  color: #12D4E6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,7 @@
 }
 
 .brand-name {
- color: #12D4E6;
+ color: white;
  font-size: 25px;
 }
 
@@ -31,9 +31,16 @@
 
 .link:hover {
   background-color: hsl(25, 85.5%, 68.6%);
+  color: white;
 }
 .link a {
   color: inherit;
   text-decoration: none;
+}
 
+.top-header{
+  justify-content: center;
+  align-content: center;
+  margin-left: 2rem;
+  color: hsl(25, 85.5%, 48.6%);
 }

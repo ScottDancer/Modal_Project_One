@@ -48,13 +48,14 @@ body {
   cursor: pointer;
   align-self: flex-start;
   padding-top: .5rem;
-  color: #008C99;
+  color:  hsl(185, 85.5%, 17.6%);
 }
 
 .body {
   background-color: hsl(185, 85.5%, 72.6%);
   flex-grow: 1;
   overflow: auto;
+  color: hsl(185, 85.5%, 17.6%);
 }
 
 .footer {
