@@ -4,7 +4,7 @@
 
 body {
   background-color: hsl(25, 85.5%, 68.6%);
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -12,6 +12,9 @@ body {
 }
 
 .modal {
+  justify-content: center;
+  margin: 2rem;
+  display: flex;
   height: 80vh;
   width: 900px;
   max-width: 80%;
@@ -19,6 +22,7 @@ body {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+ 
 }
 
 .header {
