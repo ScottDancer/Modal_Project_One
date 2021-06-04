@@ -48,6 +48,7 @@ body {
 }
 
 .body {
+  background-color: hsl(185, 85.5%, 72.6%);
   flex-grow: 1;
   overflow: auto;
 }
@@ -78,14 +79,16 @@ body {
 }
 
 .btn.btn-primary{
-  background-color: white;
+  background-color:hsl(185, 85.5%, 38.6%);
+  color: white;
 }
 
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  color: white;
-  background-color: hsl(185, 85.5%, 68.6%);
+  color: hsl(185, 85.5%, 38.6%);
+  background-color: white;
 }
+
 .btn.btn-danger {
   background-color: hsl(25, 85.5%, 58.6%);
   color: white;
@@ -93,6 +96,6 @@ body {
 
 .btn.btn-danger:hover,
 .btn.btn-danger:focus {
-  color: hsl(25, 85.5%, 58.6%);
+  color: hsl(25, 85.5%, 48.6%);
   background-color: white;
 }
