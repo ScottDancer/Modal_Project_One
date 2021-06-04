@@ -1,4 +1,44 @@
 * {
   box-sizing: border-box;
+  /* background-color:  hsl(25, 85.5%, 68.6%); */
 }
 
+body {
+  background-color: hsl(25, 85.5%, 68.6%);
+  margin: 0;
+}
+
+.nav{
+  background-color: hsl(25, 85.5%, 48.6%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .5rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+
+.brand-name {
+
+}
+
+.link-list {
+ display: flex;
+ margin: 0;
+ list-style: none;
+}
+
+.link {
+  padding: .5rem;
+}
+
+.link:hover {
+  background-color: hsl(25, 85.5%, 68.6%);
+}
+.link a {
+  color: inherit;
+  text-decoration: none;
+
+}
