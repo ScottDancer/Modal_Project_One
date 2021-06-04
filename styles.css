@@ -15,7 +15,6 @@ body {
   height: 80vh;
   width: 900px;
   max-width: 80%;
-  overflow: auto;
   background-color: #12D4E6;
   border-radius: 8px;
   display: flex;
@@ -33,15 +32,67 @@ body {
 .title {
   font-size: 1.5rem;
   padding-top: 1rem;
+  color: white;
 }
 .close-button {
   background: none;
   border: none;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.75rem;
+  font-weight:400;
   margin: 0;
   padding: 0;
   cursor: pointer;
   align-self: flex-start;
   padding-top: .5rem;
+  color: #008C99;
+}
+
+.body {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem;
+  border-top: 2px solid #008C99; 
+}
+
+.footer .btn {
+  margin-right: .5rem;
+}
+
+.footer .btn:last-child {
+  margin-right: initial;
+}
+
+.btn {
+  padding: .3rem .7rem;
+  font-size: inherit;
+  border-radius: .3em;
+  border: none;
+  background-color: #12D4E6;
+  color: hsl(185, 85.5%, 48.6%);
+  cursor: pointer;
+}
+
+.btn.btn-primary{
+  background-color: white;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  color: white;
+  background-color: hsl(185, 85.5%, 68.6%);
+}
+.btn.btn-danger {
+  background-color: hsl(25, 85.5%, 58.6%);
+  color: white;
+}
+
+.btn.btn-danger:hover,
+.btn.btn-danger:focus {
+  color: hsl(25, 85.5%, 58.6%);
+  background-color: white;
 }
